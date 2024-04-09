@@ -26,7 +26,7 @@ Permitir la impresión directa del contenido de un `std::vector` utilizando el o
 Implementar sobrecargas que permitan realizar operaciones matemáticas básicas (suma, resta, multiplicación y división) entre dos vectores de igual tamaño elemento a elemento, o entre un vector y un escalar. Por ejemplo, si `v1 = {1, 2, 3};` y `v2 = {4, 5, 6};`, entonces `v1 + v2` debería resultar en `{5, 7, 9}`. De igual forma, si `v3 = {1, 2, 3};` y `escalar = 2;`, entonces `v3 * escalar` debería resultar en `{2, 4, 6}`.
 
 **Concatenación de vectores:**  
-Permitir la concatenación de dos `std::vector` mediante el operador +. Por ejemplo, si `v1 = {1, 2, 3};` y `v2 = {4, 5, 6};`, entonces `v1 + v2` debería resultar en `{1, 2, 3, 4, 5, 6}`.
+Permitir la concatenación de dos `std::vector` mediante el operador |. Por ejemplo, si `v1 = {1, 2, 3};` y `v2 = {4, 5, 6};`, entonces `v1 + v2` debería resultar en `{1, 2, 3, 4, 5, 6}`.
 
 
 ## Question #2 - (10 points)
