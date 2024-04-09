@@ -13,10 +13,10 @@ Para ello, se pide implementar las siguientes funcionalidades:
 **Operador de negación (`-`):**  
 Sobrecargar el operador de negación (`-`) para permitir negar todos los elementos de un `std::vector`. Por ejemplo, si `v = {1, 2, 3};`, entonces `-v` debería resultar en `{-1, -2, -3}`.
 
-**Operador de negación (`++`):**  
+**Operador de autoincremento (`++`):**  
 Sobrecargar el operador de incremento (`++`) para permitir incrementar en una unidad todos los elementos de un `std::vector`. Por ejemplo, si `v = {1, 2, 3};`, entonces `++v` debería resultar en `{2, 3, 4}`.
 
-**Operador de negación (`--`):**  
+**Operador de autodecremento (`--`):**  
 Sobrecargar el operador de decremento (`--`) para permitir decrementar en una unidad todos los elementos de un `std::vector`. Por ejemplo, si `v = {1, 2, 3};`, entonces `--v` debería resultar en `{0, 1, 2}`.
 
 **Operador de desplazamiento a la izquierda (`<<`):**  
